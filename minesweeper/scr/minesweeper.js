@@ -120,4 +120,3 @@ static generateBombBoard(numberOfRows, numberOfColumns, numberOfBombs) {
 	}
 }
  
- 
