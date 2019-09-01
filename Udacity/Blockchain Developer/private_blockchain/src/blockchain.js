@@ -232,6 +232,7 @@ class Blockchain {
   validateChain() {
     let self = this;
     let errorLog = [];
+    let item;
 
     return new Promise(async (resolve, reject) => {
 
@@ -248,7 +249,6 @@ class Blockchain {
           errorLog.push(item.height)
         }
       }
-      await item.validate();
       if (errorLog.length > 0)
         resolve(errorLog);
       else

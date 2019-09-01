@@ -1,3 +1,13 @@
+# Update fifth submission V5
+I updated `blockchain.js` by deleting line 252 as suggested in the last review.
+
+# Update fourth submission V4
+I compared my code to the working code in the screenshot that the reviewer sent. The only difference that I saw as the declaration of `let item;` on line 235 of `blockchain.js`.
+
+Thank you for the hints about using a REPL envirnoment to test. I'll discuss this with my mentor.  I didn't realize it but I've already been doing this to a limited extent when entering code line by line in `node.js`. From the screenshots you sent though, I gather that you're loading all the code into node and then calling specific functions one at a time.  I didn't realize that there was also an editor mode in built into the node REPL.  Super useful! Thanks!
+
+I've tested with postman an my enpoints are working as previously. As such I haven't updated the screenshots below.
+
 # Update third submission V3
 I've made two changes to the code based on the V2 code review.
 1. I moved the try catch block in my `validateChain()`function in `blockchain.js` inside of my `for`loop.  Additonally I've swapped out the `print(e)` function in line 249 for a an `errorLog.push(item.height)` as indicated in my code review. Finally I also refactored the output to use `resolve`.
